@@ -1,0 +1,11 @@
+<model-viewer bounds="tight" enable-pan src="testmodel2.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="0" exposure="1" shadow-softness="0" camera-orbit="178.7deg 145.1deg auto">
+    <button class="Hotspot" slot="hotspot-9" data-position="0.054782585536412555m 0.2794740544278275m 0.04028771910492489m" data-normal="0.3459288708953717m -0.41426672143239873m -0.8418528967668312m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">twitter</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="-0.02693361964453323m 0.27772994548473856m 0.04957534813989758m" data-normal="-0.7900418931473493m 0.04692847280883398m -0.6112540597100219m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">onlyfans</div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="0.0065499389048861364m 0.31738224379142504m 0.05317911069590748m" data-normal="-0.02173405116405104m 0.27803917531746875m -0.9603238245554364m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">1</div>
+    </button><button class="Hotspot" slot="hotspot-12" data-position="-0.004872625053405754m 0.3968225627532069m 0.03215172887113734m" data-normal="-0.46964576549931963m 0.22517055551622808m -0.8536574698771584m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">2</div>
+    </button>
+</model-viewer>
