@@ -16,10 +16,10 @@ model-viewer {
 }
 
 .Hotspot {
-  background: #fff;
+  background: none;
   border-radius: 32px;
   border: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: none;
   box-sizing: border-box;
   cursor: pointer;
   height: 24px;
@@ -51,18 +51,18 @@ model-viewer {
 }
 
 .HotspotAnnotation{
-  background: #fff;
+  background: none;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  color: rgba(0, 0, 0, 0.8);
+  box-shadow: none;
+  color: #FFF;
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 700;
   left: calc(100% + 1em);
   max-width: 128px;
   overflow-wrap: break-word;
-  padding: 0.5em 1em;
+  padding: 0;
   position: absolute;
   top: 50%;
   width: max-content;
