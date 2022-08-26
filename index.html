@@ -1,41 +1,31 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>&lt;model-viewer&gt; template</title>
+    <title>HOLE MONEY</title>
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="./styles.css" rel="stylesheet"/>
     <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
     <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
-	  
-<style>
 body {
 	background-color: #1885FE;
-	background-image: HOLEblue.jpeg;
+	background-image: HOLEblue.jpeg
 }
 </style>
   </head>
-
-
-<body>
-
-<div style="height:100%; width: 10%; z-index: -1; margin: 0px; padding:0;">
- <model-viewer style="height:100%;width:100%;position:absolute;margin:0;padding:0;" src="fairy2.0.glb" alt="fairy" shadow-intensity="1.68" exposure="1" shadow-softness="0.82" autoplay min-camera-orbit="auto 47deg auto" max-camera-orbit="auto 97deg auto" camera-orbit="-5.442deg 82.35deg auto">
- 
-
- <button class="Hotspot" slot="hotspot-1" data-position="0.6393693576499372m 0.8500445277712916m 0.007667203821483837m" data-normal="0.8705225367428281m 0.2775942864102318m 0.40636427645060796m" data-visibility-attribute="visible">
-          <div class="HotspotAnnotation">
-
-Instagram<br>
-OnlyFans<br>
-Soundcloud<br>
-Depop
-
-</div>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer style="height:100%;width:100%;position:absolute;margin:0;padding:0;background:none;" src="fairy2.0.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.68" exposure="1" shadow-softness="0.82" autoplay min-camera-orbit="auto 47deg auto" max-camera-orbit="auto 97deg auto" camera-orbit="-5.442deg 82.35deg auto">
+      <button class="Hotspot" slot="hotspot-1" data-position="0.6393693576499372m 0.8500445277712916m 0.007667203821483837m" data-normal="0.8705225367428281m 0.2775942864102318m 0.40636427645060796m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">menu</div>
       </button>
-
-       
-            </model-viewer>
-</div>
-</body>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </body>
+</html>
